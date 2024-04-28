@@ -9,8 +9,8 @@ body {
     width: 80%;
     margin: 50px auto;
     display: flex;
-    justify-content: center; /* Вирівнює контейнер по горизонталі */
-    background-color: #282c34; /* Новий колір фону */
+    justify-content: center; 
+    background-color: #282c34; 
     padding: 20px;
 }
 
@@ -20,9 +20,9 @@ body {
     padding: 40px;
     border-radius: 10px;
     margin-top: 50px; 
-    background-color: #1e90ff; /* Колір фону для лівої сторони */
+    background-color: #1e90ff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Забороняємо вихід за межі блоку */
+    overflow: hidden; 
 }
 
 /* Заголовок */
@@ -68,13 +68,13 @@ p {
 /* Права сторона */
 .rightside {
     flex: 1; 
-    text-align: left; /* Текст вирівнюємо зліва */
+    text-align: left; 
     padding: 40px;
     border-radius: 10px;
-    margin-top: 50px; /* Потягуємо вниз */
-    background-color: #1e90ff; /* Колір фону для правої сторони */
+    margin-top: 50px; 
+    background-color: #1e90ff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Забороняємо вихід за межі блоку */
+    overflow: hidden; 
 }
 
 /* Список навичок */
@@ -89,17 +89,17 @@ p {
 
 .skills li {
     margin-bottom: 10px;
-    color: #fff; /* Колір тексту */
+    color: #fff; 
     font-size: 20px;
 }
 
 /* Кольорові блоки для кожного елемента навичок */
 .skills li:nth-child(odd) {
-    background-color: #4682b4; /* Кольоровий фон для непарних елементів */
+    background-color: #4682b4; 
 }
 
 .skills li:nth-child(even) {
-    background-color: #5f9ea0; /* Колір фону для парних елементів */
+    background-color: #5f9ea0; 
 }
 
 .skills li {
