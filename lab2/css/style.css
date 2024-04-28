@@ -1,0 +1,125 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center; /* Вирівнює контейнер по горизонталі */
+    background-color: #282c34; /* Новий колір фону */
+    padding: 20px;
+}
+
+.leftside {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 50px; 
+    background-color: #1e90ff; /* Колір фону для лівої сторони */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Забороняємо вихід за межі блоку */
+}
+
+/* Заголовок */
+h2 {
+    font-size: 28px;
+    color: #fff; /* Колір тексту заголовків */
+    margin-bottom: 20px;
+}
+
+/* Текст */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff; /* Колір тексту */
+}
+
+/* Оформлення блоків особистих даних, інтересів та контактів */
+.personal-info, .interests, .contacts, .portfolio-links {
+    margin-top: 30px;
+}
+
+.personal-info p, .interests ul, .contacts p, .portfolio-links a {
+    color: #fff; /* Колір тексту */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.interests ul {
+    padding-left: 0;
+}
+
+.contacts p {
+    margin-bottom: 5px;
+}
+
+/* Фото круглим */
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Права сторона */
+.rightside {
+    flex: 1; 
+    text-align: left; /* Текст вирівнюємо зліва */
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 50px; /* Потягуємо вниз */
+    background-color: #1e90ff; /* Колір фону для правої сторони */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Забороняємо вихід за межі блоку */
+}
+
+/* Список навичок */
+.skills {
+    margin-top: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    color: #fff; /* Колір тексту */
+    font-size: 20px;
+}
+
+/* Кольорові блоки для кожного елемента навичок */
+.skills li:nth-child(odd) {
+    background-color: #4682b4; /* Кольоровий фон для непарних елементів */
+}
+
+.skills li:nth-child(even) {
+    background-color: #5f9ea0; /* Колір фону для парних елементів */
+}
+
+.skills li {
+    padding: 10px;
+    border-radius: 5;
+}
+
+/* Стилі для кнопок портфоліо */
+.portfolio-links a {
+    display: inline-block;
+    background-color: #ff6347; /* Колір кнопок */
+    color: #fff; /* Колір тексту кнопок */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Анімація зміни кольору фону */
+}
+
+.portfolio-links a:hover {
+    background-color: #ff4500; /* Новий колір фону при наведенні */
+}
