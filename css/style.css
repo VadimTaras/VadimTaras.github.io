@@ -53,21 +53,13 @@ h2 {
     flex-wrap: wrap;
 }
 
-.image-container {
-    position: relative;
+.gallery img {
     max-width: 45%;
-    margin-bottom: 10px;
-}
-
-.image-container img {
-    width: 100%;
     border-radius: 10px;
-    transition: transform 0.3s, filter 0.3s;
-}
-
-.image-container img:hover {
-    transform: scale(1.05);
-    filter: brightness(1.1);
+    margin-bottom: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    padding: 5px;
 }
 
 form {
@@ -106,9 +98,14 @@ footer {
 @media (max-width: 768px) {
     .container {
         width: 95%;
+        padding: 10px;
     }
-
-    .image-container {
+    .gallery img {
         max-width: 100%;
+        margin-bottom: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
     }
 }
